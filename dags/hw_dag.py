@@ -37,4 +37,5 @@ with DAG(
         python_callable=predict,
     )
 
+
     pipeline >> predict
